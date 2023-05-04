@@ -1,0 +1,24 @@
+{
+  "name": "carlosazpurua.tech",
+  "description": "Carlos Azpurua Tech Website",
+  "short_name": "CarlosAzpurua",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "logo_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "display": "standalone",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Notes",
+      "short_name": "Notes",
+      "description": "Notes on learnings and experiences",
+      "url": "/notes",
+      "icons": [{ "src": "/icons/logo_192.png", "sizes": "192x192" }]
+    }
+  ]
+}
