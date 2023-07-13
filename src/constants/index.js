@@ -46,15 +46,15 @@ export const navLinks = [
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Web 3 Developer",
+      icon: mobile,
+    },
+    {
+      title: "Open-Source Collaborator",
       icon: creator,
     },
   ];
