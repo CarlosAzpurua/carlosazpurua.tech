@@ -5,6 +5,7 @@ import {
     css,
     docker,
     figma,
+    gatsby,
     git,
     html,
     javascript,
@@ -12,6 +13,7 @@ import {
     meta,
     mobile,
     mongodb,
+    nextjs,
     nodejs,
     reactjs,
     redux,
@@ -19,7 +21,6 @@ import {
     starbucks,
     tailwind,
     tesla,
-    threejs,
     tripguide,
     typescript,
     web,
@@ -97,8 +98,8 @@ export const navLinks = [
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Gatsby",
+      icon: gatsby,
     },
     {
       name: "git",
@@ -111,6 +112,10 @@ export const navLinks = [
     {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "nextjs",
+      icon: nextjs,
     },
   ];
   
