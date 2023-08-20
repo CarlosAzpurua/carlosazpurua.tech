@@ -1,4 +1,5 @@
 import {
+    asamblo,
     backend,
     carrent,
     creator,
@@ -6,21 +7,20 @@ import {
     docker,
     figma,
     gatsby,
+    genium,
     git,
     html,
+    hype,
     javascript,
     jobit,
-    meta,
     mobile,
     mongodb,
     nextjs,
     nodejs,
+    quillok,
     reactjs,
     redux,
-    shopify,
-    starbucks,
     tailwind,
-    tesla,
     tripguide,
     typescript,
     web,
@@ -123,7 +123,7 @@ export const navLinks = [
     {
       title: "Full Stack Developer",
       company_name: "Hype Interactivo & Freelance",
-      icon: starbucks,
+      icon: hype,
       iconBg: "#383E56",
       date: "Oct 2018 - Nov 2020",
       points: [
@@ -136,7 +136,7 @@ export const navLinks = [
     {
       title: "Full Stack Engineer",
       company_name: "Asamblo",
-      icon: tesla,
+      icon: asamblo,
       iconBg: "#E6DEDD",
       date: "Feb 2021 - May 2022",
       points: [
@@ -149,7 +149,7 @@ export const navLinks = [
     {
       title: "Sr. Frontend Engineer",
       company_name: "Genium",
-      icon: shopify,
+      icon: genium,
       iconBg: "#383E56",
       date: "May 2022 - Aug 2023",
       points: [
@@ -163,7 +163,7 @@ export const navLinks = [
     {
       title: "Sr. Frontend Engineer",
       company_name: "Quillok",
-      icon: meta,
+      icon: quillok,
       iconBg: "#E6DEDD",
       date: "Aug 2023 - Present",
       points: [
