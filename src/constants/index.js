@@ -177,24 +177,22 @@ export const navLinks = [
   
   const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      testimonial: "Carlos is an outstanding Full Stack Engineer, that as Sr Frontend at Genium, not only fulfilled this role exceeding our expectations across several clients, always adapting quickly to different environments and work dynamics, but also helping out on the backend, showing great skills in this area as well. Carlos has very solid communication skills and is very proactive, always showcasing his ideas for improvements. One remarkable, attribute is that he's continuously striving to learn new skills and frameworks and is very aware of industry trends and brings them forward in the projects he's involved in.",
+      name: "Silvia Gong",
+      designation: "Head of people & talent",
+      company: "Genium",
+      image: "https://media.licdn.com/dms/image/C5603AQHdCxwF_JjbEA/profile-displayphoto-shrink_800_800/0/1631060850687?e=1698278400&v=beta&t=wRDcC1MzCYLuUW1PjkcbTMjd0kKIVk4oqEKtwFwxw6M",
+    },
+    {
+      testimonial: "Carlos is a well-skilled Developer that helped the team overcome the different types of blockers in several situations. He also has an excellent personality to get along with the rest of the group. I would recommend him to work at any position requiring an experienced Full Stack Developer.",
+      name: "Paolo Zambelli",
+      designation: "Project Manager",
+      company: "Genium",
+      image: "https://media.licdn.com/dms/image/C4E03AQEDeQSrrEpNAA/profile-displayphoto-shrink_800_800/0/1546951088248?e=1698278400&v=beta&t=jXAF0AgcDOOVSRklkT8koHxq3UCbFAeDs1Aq0EMO3TA",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Carlos optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
