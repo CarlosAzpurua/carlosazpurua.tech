@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   mode: "jit",
   theme: {
     extend: {
@@ -18,12 +18,17 @@ module.exports = {
       },
       screens: {
         xs: "450px",
+        sm: "640px",
+        md: "768px",
+        lg: "960px",
+        xl: "1200px",
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
+        'spin-slow': 'sin 6s linear infinite'
       },
       keyframes: {
         'infinite-scroll': {
@@ -31,6 +36,9 @@ module.exports = {
           to: { transform: 'translateX(-100%)' },
         }
       },
+      fontFamily: {
+        Poppins: ["`var(--font-poppins)`", "sans-serif"],
+      }
     },
   },
   plugins: [],

@@ -14,14 +14,15 @@
     "@react-three/drei": "^9.68.3",
     "@react-three/fiber": "^8.13.5",
     "@types/three": "^0.154.0",
-    "framer-motion": "^10.12.12",
+    "framer-motion": "^10.16.1",
     "maath": "^0.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.154.0"
+    "three": "^0.154.0",
+    "tsparticles": "^2.12.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
