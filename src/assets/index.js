@@ -27,6 +27,7 @@ import tailwind from "./tech/tailwind.png";
 import tripguide from "./tripguide.png";
 import typescript from "./tech/typescript.png";
 import web from "./web.png";
+import meteor from "./tech/meteor.png"
 
 export {
   logo,
@@ -58,4 +59,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  meteor,
 };

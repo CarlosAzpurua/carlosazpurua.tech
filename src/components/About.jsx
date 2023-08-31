@@ -1,13 +1,15 @@
+/* eslint-disable react/no-unescaped-entities */
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { Tilt }  from "react-tilt";
 import { motion } from "framer-motion";
 import { services } from "../constants";
 import { styles } from "../styles";
+import { DateDiff } from "../utils/time";
 
 const ServiceCard = ({ key, index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
-    <motion.div
+    {/* <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
@@ -28,11 +30,15 @@ const ServiceCard = ({ key, index, title, icon }) => (
           {title}
         </h3>
       </div>
-    </motion.div>
+    </motion.div> */}
   </Tilt>
 );
 
 const About = () => {
+  const startMyCareer = new Date('03/26/2018');
+  const today = new Date()
+  const howManyYear = +DateDiff.inYears(startMyCareer, today); 
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -44,11 +50,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, Gatsby and
-        Next.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Software developer with expertise in <span className="text-[#915eff]">TypeScript</span> and <span className="text-[#915eff]">JavaScript</span>, using frameworks like 
+        <span className="text-[#915eff]"> React, Node.js, Next.js and Meteor.</span> Developing efficient and scalable solutions that solve 
+        real-world problems, let's work together to bring your ideas to build!
+        <br />
+        <br />
+        In these <span className="text-[#915eff]">{howManyYear} years</span>, I have had the opportunity to be <span className="text-[#915eff]">team leader</span>, and collaborate 
+        in great open-source projects (like <span className="text-[#915eff]">Zilliqa</span>) and in the development of web platforms I have already <span className="text-[#915eff]">completed 9 successful projects.</span>  
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

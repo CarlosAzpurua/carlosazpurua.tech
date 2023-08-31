@@ -16,6 +16,7 @@ import {
     mobile,
     mongodb,
     nextjs,
+    meteor,
     nodejs,
     quillok,
     reactjs,
@@ -116,6 +117,10 @@ export const navLinks = [
     {
       name: "nextjs",
       icon: nextjs,
+    },
+    {
+      name: "meteor",
+      icon: meteor,
     },
   ];
   

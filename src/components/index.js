@@ -1,4 +1,4 @@
-import { ComputersCanvas, EarthCanvas, StarsCanvas } from './canvas';
+import { EarthCanvas, StarsCanvas } from './canvas';
 
 import About from "./About";
 import CanvasLoader from "./Loader";
@@ -20,7 +20,6 @@ export {
   Feedbacks,
   Contact,
   CanvasLoader,
-  EarthCanvas,  
-  ComputersCanvas, 
+  EarthCanvas,
   StarsCanvas
 };
