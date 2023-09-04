@@ -24,12 +24,15 @@ import quillok from "./company/quillok.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import tripguide from "./tripguide.png";
 import typescript from "./tech/typescript.png";
 import web from "./web.png";
 import meteor from "./tech/meteor.png"
+import avatar from "./avatar.png"
+import avatarAnime from "./avatar-anime.png"
+import videoAvatar from "./videoAvatar.mp4"
 
 export {
+  avatar,
   logo,
   backend,
   creator,
@@ -58,6 +61,7 @@ export {
   asamblo,
   carrent,
   jobit,
-  tripguide,
+  avatarAnime,
   meteor,
+  videoAvatar,
 };

@@ -22,7 +22,6 @@ import {
     reactjs,
     redux,
     tailwind,
-    tripguide,
     typescript,
     web,
 } from "../assets";
@@ -266,7 +265,7 @@ export const navLinks = [
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: jobit,
       source_code_link: "https://github.com/",
     },
   ];
