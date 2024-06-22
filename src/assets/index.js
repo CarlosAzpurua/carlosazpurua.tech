@@ -30,6 +30,10 @@ import meteor from "./tech/meteor.png"
 import avatar from "./avatar.png"
 import avatarAnime from "./avatar-anime.png"
 import videoAvatar from "./videoAvatar.mp4"
+import softwareE from './softwareE.png'
+import openS from "./openS.png"
+import fullS from "./fullS.png"
+import web3 from "./web3.png"
 
 export {
   avatar,
@@ -64,4 +68,8 @@ export {
   avatarAnime,
   meteor,
   videoAvatar,
+  softwareE,
+  openS,
+  fullS,
+  web3
 };

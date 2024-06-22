@@ -1,25 +1,14 @@
-import Player from './player'
-import { videoAvatar } from '../assets/index'
 const Avatar = () => {
+	return (
+		<div className='hidden xl:flex xl:max-w-none'>
+			<img
+				className='w-[65%] rounded-full'
+				src={
+					'https://media.licdn.com/dms/image/D4D03AQEspj105Yo5Hw/profile-displayphoto-shrink_800_800/0/1685197402420?e=1724284800&v=beta&t=i8KCgS85IG8utRCTqwrkFxwTEd1GDI61AZ9ZjIoBzxA'
+				}
+			/>
+		</div>
+	);
+};
 
-    //const videoRef = useRef("https://res.cloudinary.com/versus/video/upload/v1693792724/Personal/CJVideoWithoutBg.mov")
-
-    return (
-        // <div className="absolute bottom-0 lg:bottom-0 lg:right-[8%] hidden xl:flex xl:max-w-none">
-        //     <img
-        //     src={avatarAnime}
-        //     alt='avatar-carlos'
-        //     className='rounded-full translate-z-0 w-[400px] h-full object-contain'
-        //     />
-        // </div>
-
-        <div className="absolute bottom-0 lg:bottom-0 lg:right-[8%] hidden xl:flex xl:max-w-none">
-             <Player
-                className="w-full pb-20px"
-                src={videoAvatar}
-                />
-        </div>
-    );
-  };
-  
 export default Avatar;
